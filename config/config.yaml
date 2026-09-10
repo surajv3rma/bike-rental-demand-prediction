@@ -1,0 +1,19 @@
+project:
+  name: Bike Rental Demand Prediction
+
+data:
+  raw: data/raw/hour.csv
+  processed: data/processed/hour_processed.csv
+
+model:
+  output: models/model.pkl
+
+training:
+  test_size: 0.2
+  random_state: 42
+
+drift:
+  threshold: 0.15
+
+api:
+  version: "1.0"

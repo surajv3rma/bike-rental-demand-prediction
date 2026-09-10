@@ -1,0 +1,13 @@
+{
+    "baseline": {
+        "RMSE": 117.25,
+        "MAE": 88.37,
+        "R2": 0.5658
+    },
+    "candidate": {
+        "RMSE": 41.94,
+        "MAE": 24.92,
+        "R2": 0.9445
+    },
+    "selected_model": "RandomForest"
+}
